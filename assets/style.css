@@ -3,6 +3,8 @@ background-color : #dadada;
     width: 1920px;
 }
 
+
+
 .navbar   .nav-item{
 font-family: "nunito";
 font-size: 2rem;
@@ -144,6 +146,7 @@ margin:auto;
 border: solid 3px white;
 background-color: antiquewhite;
 
+
 }
 
 .main-img .img, .imgs img{ 
@@ -181,4 +184,12 @@ background-color: antiquewhite;
 opacity:0;
 animation: fadeIn 0.5s ease-in 1 forwards;
 
+}
+
+
+.leafs{
+
+    width:100%;
+    height:100%;
+    
 }
