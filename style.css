@@ -1,0 +1,203 @@
+body{
+background-color : #dadada;
+    width: 1920px;
+}
+
+
+
+.navbar   .nav-item{
+font-family: "nunito";
+font-size: 2rem;
+    padding-right: 100px !important;
+    letter-spacing: 3PX;
+}
+
+.nav-link{
+
+color: #2d3561 !important;
+}
+
+.nav-link:hover{
+
+    color:#540e33 !important;
+}
+
+.castlepic{
+width: 540px;
+height: 400px;
+margin: 0 auto;
+border-radius: 100%;
+opacity:0.8;
+}
+
+
+.logopic{
+width:320px;
+height:200px;
+margin-left: 40% !important;
+border-radius: 100%;
+border: 5px solid #540e33;
+transition: transform 10s;
+
+}
+
+.logopic:hover{
+
+    transform: scale(1.2);
+
+
+}
+
+.logoCont{
+padding: 3% 0 ;
+opacity: 0.9;
+
+}
+
+.picCont{
+background-color: #dadada;
+
+}
+
+
+.mainCont{
+    padding: 3% 0;
+height:1100px;
+background-color:#fae3d9;
+
+}
+
+.mainContSmall{
+
+    height:1300px;
+    background-color:#fae3d9;
+
+}
+
+
+.geralt{
+width:440px;
+height:505px;
+padding-top: 5%;
+transition: transform 2s;
+}
+
+.geralt:hover{
+
+    transform: scale(1.2);
+}
+
+
+.aboutDiv{
+
+    padding-right: 5%;
+}
+
+
+.footerCont{
+
+    height: 300px;
+text-align: right;
+    background-color: #dadada;
+}
+
+
+.aboutHead{
+margin-top: 20%;
+font-family: "miss fajardose";
+font-size: 8rem;
+
+}
+
+
+.aboutHead:hover{
+    color:purple !important;
+}
+
+
+.abouText{
+
+    font-size:1.4rem;
+text-align: left;
+}
+
+
+.footerHead{
+    color:purple !important;
+    font-family: "miss fajardose";
+    font-size: 5rem;
+    letter-spacing: 8px;
+    margin-right: 10%;   
+    padding-top: 2%;
+}
+
+.footerText{
+font-family: "nunito";
+font-size: 1.3rem;
+    margin-right: 10%;
+
+}
+
+
+
+.gallCont{
+max-width: 760px;
+margin:auto;
+border: solid 3px white;
+background-color: antiquewhite;
+
+
+}
+
+.main-img .img, .imgs img{ 
+
+    width:100%;
+}
+
+
+.imgs{
+
+    display:grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+}
+
+#current{
+    padding:5% 5%;
+    margin: 0 auto;
+    text-align: center;
+    width:100%;
+    
+}
+
+
+@keyframes fadeIn{
+
+    to{
+       opacity: 1;
+    }
+}
+
+.fade-in{
+opacity:0;
+animation: fadeIn 0.5s ease-in 1 forwards;
+
+}
+
+
+.leafs{
+
+    width:100%;
+    height:100%;
+    
+}
+
+
+@media(max-width:960px){
+
+    .woods{
+        display:none;
+    }
+}
