@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <header id="main-header">
 
         <div class="nav-container">
@@ -24,8 +23,8 @@
                     <img style="width:300px;" src="IMG/laralog.jpg" alt="">
                 </div>
                 <ul>
-                    <li class="selected"> <a href="index.html">HOME</a> </li>
-                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li class="selected"> <a href="about.html">ABOUT</a> </li>
                     <li> <a href="work.html">WORK</a> </li>
                     <li> <a href="contact.html">CONTACT</a> </li>
                 </ul>
@@ -35,34 +34,41 @@
 
     </header>
 
-    <section id="home-c">
+    <section id="about">
+        <div class="aboutContainer">
 
-    </section>
+            <div class="bio">
+                <h2 class="section-title">About Me</h2>
 
+                <img id="profile"
+                    src="https://scontent.fcpt4-1.fna.fbcdn.net/v/t31.0-1/c0.13.160.160a/p160x160/10522513_10152698465936522_8993573130815986381_o.jpg?_nc_cat=106&_nc_ohc=czthlFbyGGoAQmHfKs6M6o4sYVnB3aDEvHfZtsnG8_qI4_X63LaIPP80g&_nc_ht=scontent.fcpt4-1.fna&oh=62ed0de2cb9d5e3134cdcb8fc6490eec&oe=5E7684E2"
+                    alt="">
+                <h4>The Story Of Lara:</h4>
+                <br>
 
-    <section id="home-a">
+                <p class="profileText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor dicta minima asperiores laborum
+                    laboriosam corporis, labore odio nihil dignissimos. Vero non nostrum, pariatur provident at eos
+                    maiores alias sed sapiente accusamus id quos assumenda aliquid culpa hic distinctio quisquam.
+                    Sapiente excepturi dolore quis dolores esse non, vitae, obcaecati, ratione hic quam laudantium
+                    molestiae? Provident, sit exercitationem mollitia itaque ducimus debitis.
+                </p>
+                <br>
+                <p class="profileText">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum alias facere totam quo saepe? Ab
+                    impedit, illo praesentium, voluptatem ipsum, nesciunt officiis cum mollitia enim nihil unde
+                    inventore obcaecati labore.
+                </p>
 
-        <div class="container">
-            <div class="container-main py-5 pt-10">
-                <h1 class="mainTitle">Welcome To Lara Berge Illustrations</h1>
-                <a class="btn-primary my-4" href="work.html">View Work</a>
+                <div>
+                    <img id="aboutImg" src="./IMG/tuck.jpg" alt="">
+                </div>
+
             </div>
-        </div>
 
-    </section>
-
-
-
-
-    <section id="home-b">
-
-        <div class="itemContainer py-4">
-            <div class="item"><img src="IMG/geralt.jpg" alt=""></div>
-            <div class="item"><img src="IMG/elfgirl.jpg" alt=""></div>
-            <div class="item"><img src="IMG/dark.jpg" alt=""></div>
-            <div class="item"><img src="IMG/octo.jpg" alt=""></div>
         </div>
     </section>
+
 
 
     <footer id="main-footer">
@@ -91,27 +97,9 @@
         </div>
     </footer>
 
-    <script>
-        var navbar = document.getElementById("main-header");
-        var sticky = navbar.offsetTop;
-        var mainhead = document.getElementByClassName("mainTitle");
 
 
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-                mainhead.classList.add("hidden");
 
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
-
-        window.onscroll = function () {
-            myFunction()
-
-        };
-    </script>
 
 </body>
 
