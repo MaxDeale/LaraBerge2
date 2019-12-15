@@ -217,6 +217,10 @@ i {
     border: 1px solid black;
 }
 
+.galleryItem:hover {
+    opacity: 0.7;
+}
+
 /* CONTACT */
 
 .contactContainer {

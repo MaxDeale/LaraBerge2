@@ -91,11 +91,21 @@
 
             </div>
 
-
         </div>
     </footer>
 
-
+    <script>
+        // when hover over small image, get that img src
+        let smallImgs = document.querySelectorAll(".galleryItem");
+        let imgArr = Array.from(smallImgs);
+        console.log(imgArr)
+        for (var i = 0; i < imgArr.length; i++) {
+            imgArr[i].addEventListener("mouseover", function () {
+                document.getElementById("mainDisplay").src = this.src;
+            });
+        }
+        // change img src of big pic to that of small pic when hover
+    </script>
 
 </body>
 
