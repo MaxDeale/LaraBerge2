@@ -1,4 +1,4 @@
-/* NAVBAR */
+
 
 * {
     margin: 0;
@@ -16,7 +16,14 @@ body {
     font-family: "Nunito";
 }
 
+/* NAVBAR */
+
 #main-header #main-nav .logo-container img {
+    width: 180px;
+    height: 180px;
+}
+
+#logo-container img{
     width: 180px;
     height: 180px;
 }
@@ -245,6 +252,8 @@ i {
     padding: 2rem;
     background: darkgrey;
     display: grid;
+    border: 2px solid black;
+    overflow: hidden;
     justify-items: center;
     justify-self: center;
     margin-left: 30%;
